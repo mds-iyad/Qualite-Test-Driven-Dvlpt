@@ -1,0 +1,56 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NoteApp > Test can add a note 1`] = `
+[
+  {
+    "comment": "comment test",
+    "content": 14,
+    "creationDate": "06/02/2023, 15:56:55",
+    "id": 5,
+    "title": "title test",
+  },
+]
+`;
+
+exports[`NoteApp > Test can add multiple element in the notes array 1`] = `
+[
+  {
+    "comment": "comment test 1",
+    "content": 14,
+    "creationDate": "17/12/1995, 03:24:00",
+    "id": 1,
+    "title": "title test 1",
+  },
+  {
+    "comment": "comment test 2",
+    "content": 14,
+    "creationDate": "17/12/1995, 03:24:00",
+    "id": 2,
+    "title": "title test 2",
+  },
+]
+`;
+
+exports[`NoteApp > Test can delete a note in mutiple notes array 1`] = `
+[
+  {
+    "comment": "comment test 2",
+    "content": 14,
+    "creationDate": "17/12/1995, 03:24:00",
+    "id": 2,
+    "title": "title test 2",
+  },
+]
+`;
+
+exports[`NoteApp > test note gets updated properly 1`] = `
+[
+  {
+    "comment": "comment updated",
+    "content": 14,
+    "creationDate": "17/12/1995, 03:24:00",
+    "id": 1,
+    "title": "title updated",
+  },
+]
+`;

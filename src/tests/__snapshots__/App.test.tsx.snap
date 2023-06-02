@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NoteApp > Test can add a note 1`] = `
+[
+  {
+    "comment": "comment test",
+    "content": 14,
+    "creationDate": "02/06/2023, 15:47:05",
+    "id": 1685713625401,
+    "title": "comment test",
+  },
+]
+`;
